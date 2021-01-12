@@ -1,0 +1,7 @@
+/******/ (() => { // webpackBootstrap
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: Unknown option: .entry. Check out https://babeljs.io/docs/en/babel-core/#options for more information about options.\n    at throwUnknownError (/Users/desireebradish/Documents/Dev/practicum/node_modules/@babel/core/lib/config/validation/options.js:124:27)\n    at /Users/desireebradish/Documents/Dev/practicum/node_modules/@babel/core/lib/config/validation/options.js:109:5\n    at Array.forEach (<anonymous>)\n    at validateNested (/Users/desireebradish/Documents/Dev/practicum/node_modules/@babel/core/lib/config/validation/options.js:85:21)\n    at validate (/Users/desireebradish/Documents/Dev/practicum/node_modules/@babel/core/lib/config/validation/options.js:76:10)\n    at /Users/desireebradish/Documents/Dev/practicum/node_modules/@babel/core/lib/config/config-chain.js:200:34\n    at cachedFunction (/Users/desireebradish/Documents/Dev/practicum/node_modules/@babel/core/lib/config/caching.js:62:27)\n    at cachedFunction.next (<anonymous>)\n    at evaluateSync (/Users/desireebradish/Documents/Dev/practicum/node_modules/gensync/index.js:251:28)\n    at sync (/Users/desireebradish/Documents/Dev/practicum/node_modules/gensync/index.js:89:14)");
+/******/ })()
+;
