@@ -1,0 +1,1 @@
+(()=>{document.querySelector(".testIt").textContent="No more";var t=[2,3,5].map((function(t){return 2*t}));console.log(t)})();
