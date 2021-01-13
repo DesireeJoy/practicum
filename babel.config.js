@@ -1,18 +1,23 @@
-const path = require("path");
+const presets = [
+  [
+    "@babel/env",
+    {
+      // preset you want to use
+      targets: {
+        // browser versions in which we want our code supported
+        edge: "17",
+        ie: "11",
+        firefox: "50",
+        chrome: "64",
+        safari: "11.1",
+      },
 
-module.exports = {
-  entry: { main: "./src/index.js" },
-  output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "main.js",
-    publicPath: "",
-  },
-  mode: "development",
-  devServer: {
-    contentBase: path.resolve(__dirname, "dist"), // tell the server where to serve content from in dev mode
-    compress: true, // this will speed up file loading in development mode
-    port: 8080, // will open your site at localhost:8080 (you can use another port)
+      // use polyfills for the browsers specified in the above targets option
+      // Babel uses polyfills from the core-js library
+      useBuiltIns: "entry",
+      corejs: "^3",
+    },
+  ],
+];
 
-    open: true, // site will open automatically in the browser after executing npm run dev
-  },
-};
+module.exports = { presets };
